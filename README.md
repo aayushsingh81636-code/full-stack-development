@@ -1,3 +1,3 @@
 
 
-world is only care about results
+world is only care about results this is word of gun
