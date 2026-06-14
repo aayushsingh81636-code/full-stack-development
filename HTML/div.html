@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
-            width:24%;
-            display: inline-block;
+        .container{
+            display: flex;
+        }
+        .container div{
+            width:33%;
         }
     </style>
     
 </head>
 <body>
     <h2 style="color:blue;">DIV ELEMENT</h2>
-    <h4 style="color:aqua;">Multiple div element</h4>
-    <h5>Allign the div element using INLINE-BLOCK property</h5>
+    <h4 style="color:RED;">Multiple div element</h4>
+    <h5>Allign the div element using FLEX property</h5>
+    <p>To align the multiple div elements horizontally we are using the CSS FLOAT property , 
+        To use the FLOAT property ,first we have to surround all the div elements to another 
+        div element and then give it the status as CONTAINER
+    </p>
+    <div class="container">
     <div style="background-color:#FFF4A3;">
   <h2>London</h2>
   <p>London is the capital city of England.</p>
@@ -26,16 +33,11 @@
   <p>Oslo is the capital city of Norway.</p>
   <p>Oslo has over 700,000 inhabitants.</p>
 </div>
-
 <div style="background-color:#D9EEE1;">
   <h2>Rome</h2>
   <p>Rome is the capital city of Italy.</p>
   <p>Rome has over 4 million inhabitants.</p>
 </div>
-<div style="background-color:#D9EEE1;">
-  <h2>Rome</h2>
-  <p>Rome is the capital city of Italy.</p>
-  <p>Rome has over 4 million inhabitants.</p>
 </div>
 </body>
 </html>
