@@ -8,28 +8,18 @@
 <body>
     <p>In this form we use the select,option elements and selected attribute of option element of forms</p>
     <form action="FormsActionPage.html" target="_parent" method="get" autocomplete="off">
-        <fieldset>
-            <legend>Country Selection</legend>
+        <input list="countries">
+        <datalist id="countries">
             <label for="country">Choose a country:</label><br><br>
-            <select name="country" id="country" size="3" multiple>
                 <option value="usa">United States</option>
                 <option value="canada" >Canada</option>
                 <option value="mexico">Mexico</option>
             <option value="New Zealand">New Zealand</option>
             <option value="Brazil">Brazil</option>
             <option value="India">India</option>
-        </select>
         <br><br>
-        <input type="submit" value="Submit">
-        </fieldset>
-<h2>Textarea</h2>
-<p>The textarea element defines a multi-line input field.</p>
-<textarea name="message" rows="4" cols="60">
-    ICPC stands for International Collegiate Programming Contest. It is a competitive programming competition for university students. The contest is organized by the Association for Computing Machinery (ACM) and is considered one of the most prestigious programming competitions in the world.
-</textarea><br><br> 
+        </datalist>
 <input type="submit" value="Submit">
-<h2>Button Element</h2>
-<button type="button" onclick="alert('Button clicked!')">Click Me!</button>
     </form> 
 </body>
 </html>
