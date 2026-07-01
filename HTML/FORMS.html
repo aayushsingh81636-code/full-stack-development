@@ -8,18 +8,20 @@
 <body>
     <p>In this form we use the select,option elements and selected attribute of option element of forms</p>
     <form action="FormsActionPage.html" target="_parent" method="get" autocomplete="off">
-        <label for="country">Choose a country:</label><br><br>
-        <select name="country" id="country" size="3" multiple>
-            <option value="usa">United States</option>
-            <option value="canada" >Canada</option>
-            <option value="mexico">Mexico</option>
+        <fieldset>
+            <legend>Country Selection</legend>
+            <label for="country">Choose a country:</label><br><br>
+            <select name="country" id="country" size="3" multiple>
+                <option value="usa">United States</option>
+                <option value="canada" >Canada</option>
+                <option value="mexico">Mexico</option>
             <option value="New Zealand">New Zealand</option>
             <option value="Brazil">Brazil</option>
             <option value="India">India</option>
         </select>
         <br><br>
         <input type="submit" value="Submit">
-        
+        </fieldset>
 <h2>Textarea</h2>
 <p>The textarea element defines a multi-line input field.</p>
 <textarea name="message" rows="4" cols="60">
