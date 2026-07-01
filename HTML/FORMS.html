@@ -6,18 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <p>In this form we use the select,option elements and selected attribute of option element of forms</p>
     <form action="FormsActionPage.html" target="_parent" method="get" autocomplete="off">
-        <p>In this form we will see the usage of radiobuttons where we use the new attribute 
-            name and value name groups the input together and value stores the actual date that
-            gets sent when form is submitted
-        </p>
-  <input type="text" id="NAME" name="NAME">
-  <label for="NAME">NAME</label><br>
-  <input type="text" id="SECTION" name="SECTION">
-  <label for="SECTION">SECTION</label><br>
-  <input type="text" id="UNIVERSITY" name="UNIVERSITY" >
-  <label for="UNIVERSITY">UNIVERSITY</label><br>
-  <input type="submit" value="Submit">
-</form> 
+        <label for="country">Choose a country:</label>
+        <select name="country" id="country">
+            <option value="usa">United States</option>
+            <option value="canada" selected>Canada</option>
+            <option value="mexico">Mexico</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form> 
 </body>
 </html>
