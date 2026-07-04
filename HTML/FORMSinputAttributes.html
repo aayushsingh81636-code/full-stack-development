@@ -6,11 +6,20 @@
     <title>Document</title>
 </head>
 <body>
+    <h3>readonly attribute</h3>
+    <p>when we use the readonly attribute ,the user can see the value but cannot modify it.</p>
     <form>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" value="Aayush singh" required minlength="3" maxlength="20" readonly>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" value="secret123" required minlength="6" maxlength="100">
+    </form>
+    <h3>disabled attribute</h3>
+    <p>when we use the disabled attribute ,the user can see the value but cannot modify it and 
+        it is not submitted with the form.</p>
+    <form>
+        <label for="email">Email:</label>      
+        <input type="email" id="email" name="email" value="aayush@example.com" required minlength="5" maxlength="100" disabled>
     </form>
 </body>
 </html>
