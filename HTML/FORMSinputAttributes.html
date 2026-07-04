@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>readonly attribute</h3>
+    <ul>
+    <li><h3>READONLY ATTRIBUTE</h3>
     <p>when we use the readonly attribute ,the user can see the value but cannot modify it.</p>
     <form>
         <label for="username">Username:</label>
@@ -14,18 +15,32 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" value="secret123" required minlength="6" maxlength="100">
     </form>
-    <h3>disabled attribute</h3>
+    </li>
+    <li>
+    <h3>DISABLED ATTRIBUTE</h3>
     <p>when we use the disabled attribute ,the user can see the value but cannot modify it and 
         it is not submitted with the form.</p>
     <form>
         <label for="email">Email:</label>      
         <input type="email" id="email" name="email" value="aayush@example.com" required minlength="5" maxlength="100" disabled>
     </form>
-    <h3>size and maxlength attributes</h3>
+    </li>
+    <li>
+    <h3>SIZE AND MAXLENGTH ATTRIBUTES</h3>
     <p>The <code>size</code> attribute specifies the visible width of the input field, while the <code>maxlength</code> attribute specifies the maximum number of characters allowed in the input field.</p>
     <form>
         <label for="description">Description:</label>
         <input type="text" id="description" name="description" size="50" maxlength="100">
     </form>
-</body>
+    </li>
+    <li>
+    <h3>MAX AND MIN ATTRIBUTES</h3>
+    <p>The <code>min</code> and <code>max</code> attributes are used with input types like number, range, date, etc., to specify the minimum and maximum values allowed.</p>
+    <form>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="99">
+    </form>
+    </li>
+    <li>
+</ul>
 </html>
