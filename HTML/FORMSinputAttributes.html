@@ -51,7 +51,13 @@
         </form>
     </li>
     <li>
-        <h3></h3>
+        <h3>PATTERN ATTRIBUTE</h3>
+        <p>The <code>pattern</code> attribute specifies a regular expression that the input value must match to be considered valid.</p>
+        <form>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+            title="10 digit phone number" placeholder="123-456-7890">
+        </form>
     </li>
 </ul>
 </html>
