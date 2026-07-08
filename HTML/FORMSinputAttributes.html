@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <ul>
-    <li><h3>READONLY ATTRIBUTE</h3>
+    <li id="a"><h3>READONLY ATTRIBUTE</h3>
     <p>when we use the readonly attribute ,the user can see the value but cannot modify it.</p>
     <form>
         <label for="username">Username:</label>
@@ -17,7 +18,7 @@
 
     </form>
     </li>
-    <li>
+    <li id="b">
     <h3>DISABLED ATTRIBUTE</h3>
     <p>when we use the disabled attribute ,the user can see the value but cannot modify it and 
         it is not submitted with the form.</p>
@@ -26,7 +27,7 @@
         <input type="email" id="email" name="email" value="aayush@example.com" required minlength="5" maxlength="100" disabled>
     </form>
     </li>
-    <li>
+    <li id="c">
     <h3>SIZE AND MAXLENGTH ATTRIBUTES</h3>
     <p>The <code>size</code> attribute specifies the visible width of the input field, while the <code>maxlength</code> attribute specifies the maximum number of characters allowed in the input field.</p>
     <form>
@@ -34,7 +35,7 @@
         <input type="text" id="description" name="description" size="50" maxlength="100">
     </form>
     </li>
-    <li>
+    <li id="d">
     <h3>MAX AND MIN ATTRIBUTES</h3>
     <p>The <code>min</code> and <code>max</code> attributes are used with input types like number, range, date, etc., to specify the minimum and maximum values allowed.</p>
     <form>
@@ -42,7 +43,7 @@
         <input type="number" id="age" name="age" min="18" max="99">
     </form>
     </li>
-    <li>
+    <li id="e">
         <h3>MULTIPLE ATTRIBUTE</h3>
         <p>The <code>multiple</code> attribute allows users to select multiple values from a list of options.</p>
         <form>
@@ -50,7 +51,7 @@
             <input type="text" id="hobbies" name="hobbies" >
         </form>
     </li>
-    <li>
+    <li id="f">
         <h3>PATTERN ATTRIBUTE and PLACEHOLDER</h3>
         <p>The <code>pattern</code> attribute specifies a regular expression that the input value must match to be considered valid.
             Placeholder text provides a hint to the user about what to enter.Required attributes ensure the input is not left empty.</p>
@@ -60,7 +61,7 @@
             title="10 digit phone number" placeholder="123-456-7890" required>
         </form>
     </li>
-    <li>
+    <li id="g">
         <h3>AUTOFOCUS ATTRIBUTE</h3>
         <p>The <code>autofocus</code> attribute automatically focuses the input field when the page loads.</p>
         <form>
@@ -68,7 +69,7 @@
             <input type="text" id="name" name="name" autofocus>
         </form>
     </li>
-    <li>
+    <li id="h">
         <h3>AUTOCOMPLETE ATTRIBUTE</h3>
         <p>The <code>autocomplete</code> attribute specifies whether the input field should have autocomplete enabled.</p>
         <form>
