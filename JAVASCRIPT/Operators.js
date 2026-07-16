@@ -5,3 +5,5 @@ console.log(x);
 let b="3";
 let y=a+b;
 console.log(y);//33 
+//size operator
+let z="hello";
