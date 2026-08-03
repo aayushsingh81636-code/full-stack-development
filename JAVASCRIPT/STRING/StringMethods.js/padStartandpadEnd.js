@@ -4,3 +4,5 @@ console.log(str.padStart(10, "k"));//The padStart() method pads a string from th
 let number=123;
 let str1=number.toString();
 console.log(str.padStart(10, "0"));//The padStart() method pads a string from the start.
+let str2="Hello";
+console.log(str2.padEnd(10, "k"));
