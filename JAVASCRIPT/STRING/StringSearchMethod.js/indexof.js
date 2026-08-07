@@ -10,3 +10,5 @@ console.log(a.lastIndexOf("xyz"));
 //Both methods accept a second parameter as the starting position for the search:
 console.log(a.indexOf("want", 10));
 console.log(a.lastIndexOf("want", 10));
+//The lastIndexOf() methods searches backwards (from the end to the beginning), meaning: if the second parameter is 15, 
+// the search starts at position 15, and searches to the beginning of the string.
